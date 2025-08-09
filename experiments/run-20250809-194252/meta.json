@@ -1,0 +1,19 @@
+{
+  "device": "cpu",
+  "debug": true,
+  "epochs": 2,
+  "cfg": {
+    "img_size": [
+      128,
+      128,
+      128
+    ],
+    "in_channels": 4,
+    "out_channels": 3,
+    "batch_size": 2,
+    "lr": 0.0002,
+    "epochs": 100,
+    "amp": true,
+    "num_workers": 4
+  }
+}
