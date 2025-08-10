@@ -5,7 +5,7 @@ from pathlib import Path
 import torch
 
 # پروژه: src/config/config.py  → دو سطح بالاتر = ریشه پروژه
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path("D:/NeuroShield-3D").resolve().parents[2]
 
 @dataclass
 class PATHS:
